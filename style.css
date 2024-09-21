@@ -29,3 +29,15 @@ p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+/* Image container styling */
+.image-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 3px solid #ff6600;
+}
