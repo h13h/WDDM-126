@@ -29,6 +29,46 @@ p {
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
 }
+
+/* Styling for skills list (new change) */
+.skills {
+    list-style-type: square; /* Different bullet type */
+    color: #3e4b5b;
+    padding: 10px;
+    margin: 20px 0;
+    font-size: 1.25rem;
+}
+
+/* Button styling (new change) */
+.button-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-btn {
+    background-color: #3e4b5b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #ff6600; /* Change on hover */
+}
+
+/* Footer styling (new change) */
+footer {
+    background-color: #3e4b5b;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 40px;
+    font-size: 0.875rem;
+}
+
 /* Image container styling */
 .image-container {
     text-align: center;
